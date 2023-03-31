@@ -1,0 +1,17 @@
+.divStyles {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content:space-between;
+    padding: 1%;
+
+    
+    width: 70%;
+    background-color: rgba(124, 238, 48, 0.178);
+
+    
+    
+}

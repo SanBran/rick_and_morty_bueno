@@ -1,0 +1,85 @@
+.card {
+    display: flex;
+    align-items: center;
+    
+   margin: 5px;
+   height: 27em;
+   background-image: url(../../Sources/RandM.png) ;
+   background-position: center;  
+    background-repeat: no-repeat;
+    background-position-y:0;
+    background-size: contain;
+    z-index: 1;
+    border-radius: 15px;
+    
+    
+}
+
+.button {
+    background-color: rgba(165, 42, 42, 0.74);
+    border: none;
+    border-radius: 5px;
+    z-index: 3;
+    position: absolute;
+    
+    
+}
+
+nameContainer{
+    position: absolute;
+    border: solid red;
+    display: flex;
+    align-items: center;
+
+    width: 10%;
+    top: 0;
+}
+
+.name {
+    
+    z-index: 2;
+    
+
+    
+    
+    color: black;
+    position: absolute;
+      
+    
+}
+
+.image {
+    position: absolute;
+    height: 50%;
+    
+    
+    
+    
+}
+
+.species {
+    position: relative;
+   
+}
+
+.gender {
+    position: relative;
+   
+}
+
+.wbutton {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+}
+
+.rbutton {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 20px;
+    position: relative;
+    top: -1em;
+    left: 0em;
+}

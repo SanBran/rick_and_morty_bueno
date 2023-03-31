@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+   
+    align-items: center;
+
+    justify-content: space-around;
+
+   
+
+    background: linear-gradient( rgba(128, 0, 128, 0) 70%,purple);
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: solid 1px rgba(228, 118, 255, 0.733);
+    position: absolute;
+    top: 3%;
+    margin: auto;
+
+    height: 65px;
+    width: 70%;
+}
+
+
+
+

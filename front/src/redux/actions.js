@@ -18,7 +18,7 @@ export const removeFavorite = (id) => {
 export const getCharacterDetail = (id) => {
   return async function (dispatch) {
     const URL_bASE = "http://localhost:3001";
-    const response = await axios.get(`${URL_bASE}/detail/${id}`);
+    const response = await axios.get(`${URL_bASE}/rickandmorty/detail/${id}`);
     dispatch({ type: GET_CHARACTER_DETAIL, payload: response.data });
   };
 };
